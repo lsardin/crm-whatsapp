@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<module>
+<exporttime>2021-11-26 07:43:07</exporttime>
+<name>BaWhatsApp</name>
+<label>WhatsApp</label>
+<parent></parent>
+<type>extension</type>
+<version>1.0</version>
+<dependencies>
+<vtiger_version>7.0.0</vtiger_version>
+<vtiger_max_version>7.*</vtiger_max_version>
+</dependencies>
+<tables>
+</tables>
+<customlinks>
+<customlink>
+<linktype>HEADERSCRIPT</linktype>
+<linklabel>BA WhatsApp Messager Script</linklabel>
+<linkurl><![CDATA[modules/BaWhatsApp/Js/BaWhatsAppScript.js]]></linkurl>
+<linkicon><![CDATA[]]></linkicon>
+<sequence>0</sequence>
+<handler_path><![CDATA[]]></handler_path>
+<handler_class><![CDATA[]]></handler_class>
+<handler><![CDATA[]]></handler>
+</customlink>
+</customlinks>
+<crons>
+</crons>
+</module>
